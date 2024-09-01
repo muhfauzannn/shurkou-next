@@ -8,10 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily:{
+        'spartan': ['League Spartan', 'sans-serif'],
+        'nunito': ['Nunito', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
+      },
+      backgroundColor:{
+        'primary':'#071952',
+        'secondary':'#E6B345',
+        'tertiary':'#3059EE',
       },
     },
   },
