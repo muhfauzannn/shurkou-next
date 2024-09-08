@@ -11,6 +11,24 @@ a{
     cursor: pointer;
     width: max-content;
 }
+.customLine{
+  position: relative;
+}
+.customLine::after{
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  border-radius: 10px;
+  left: 0;
+  bottom: -4px;
+  background-color: #3059EE;
+  transition: 500ms;
+}
+.customLine:hover::after{
+  width: 100%;
+}
+
 /* Hamburger */
 #Navbar{
     transition: .3s ease-in-out;

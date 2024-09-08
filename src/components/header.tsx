@@ -34,10 +34,10 @@ const Header = () => {
         </div>
 
         <div className='font-nunito flex gap-8 max-md:hidden'>
-          <a href='/'>Home</a>
-          <a href='#pricing'>Pricing</a>
-          <a href='#features'>Features</a>
-          <a href='https://google.com'>Join Discord</a>
+          <a href='/' className='customLine'>Home</a>
+          <a href='#pricing' className='customLine'>Pricing</a>
+          <a href='#features' className='customLine'>Features</a>
+          <a href='https://google.com' className='customLine'>Join Discord</a>
         </div>
 
         <div className='flex gap-6 font-nunito max-md:hidden'>
