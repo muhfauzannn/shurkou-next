@@ -6,12 +6,12 @@ const Features = () =>{
     return (
         <div className="w-full flex justify-center">
             <div className="w-11/12 flex flex-col items-center gap-12">
-                <div className="w-max">
-                    <h1 className="text-6xl font-[800]">Features</h1>
-                    <div className="h-[5px] w-full bg-[#E6B345] rounded-md"></div>
+                <div className="w-max flex flex-col items-center">
+                    <h1 className="text-6xl font-[800] max-md:text-5xl">Features</h1>
+                    <div className="h-[5px] w-[70%] bg-[#E6B345] rounded-md"></div>
                 </div>
 
-                <div className="w-full flex justify-between">
+                <div className="w-full flex justify-evenly max-md:justify-between">
 
                     <FeaturesCard 
                         image="key.svg"
