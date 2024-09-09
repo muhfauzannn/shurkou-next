@@ -7,7 +7,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="font-spartan bg-primary text-white">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

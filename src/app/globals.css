@@ -11,6 +11,30 @@ a{
     cursor: pointer;
     width: max-content;
 }
+body{
+  color: white;
+  font-family:'League Spartan', sans-serif;
+  background-color: #071952;
+  overflow-x: hidden;
+}
+
+.custMove{
+  animation: move 3s infinite;
+}
+@keyframes move {
+  0%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(50%);
+  }
+  100%{
+    50%{
+      transform: translateY(0);
+    }
+  }
+}
+
 .customLine{
   position: relative;
 }
@@ -32,6 +56,7 @@ a{
 /* Hamburger */
 #Navbar{
     transition: .3s ease-in-out;
+    /* z-index: 88; */
 }
 
 #menuToggle {
