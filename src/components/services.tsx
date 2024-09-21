@@ -25,7 +25,7 @@ const Services = () => {
                 </div>
 
                 <div className="min-w-[60%] max-md:min-w-[80%] rounded-[25px] bg-[rgba(8,131,149,0.50)] border-4 border-[#3059EE]">
-                    <div className="w-full h-full p-8 grid grid-cols-4 max-md:grid-cols-3">
+                    <div className="w-full h-full p-8 grid grid-cols-4 max-md:grid-cols-3 ">
                         {dataApps.map((app) => (
                             <AppServices key={app.key} image={app.image} title={app.title} />
                         ))}

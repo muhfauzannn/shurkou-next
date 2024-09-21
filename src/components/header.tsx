@@ -26,7 +26,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className={`bg-primary w-full flex justify-center py-4 sticky top-0 transition-colors duration-300 ${isScrolled ? 'shadow-2xl' : null}`}>
+    <div className={`bg-primary w-full flex justify-center py-4 sticky top-0 transition-colors duration-300 z-20 ${isScrolled ? 'shadow-2xl' : null}`}>
       <div className="w-11/12 flex justify-between items-center">
         <div className='flex items-center'>
           <Image src="./icon/Logo (1).svg" alt='logo' width={25} height={25}/>
