@@ -29,9 +29,7 @@ body{
     transform: translateY(50%);
   }
   100%{
-    50%{
       transform: translateY(0);
-    }
   }
 }
 
@@ -79,6 +77,23 @@ body{
     opacity: 0; /* hide input */
     z-index: 1; /* top of the menu */
   }
+  #plusMinus{
+    position: relative;
+    border-radius: 20px;
+    height: 12px;
+    width: 2px;
+    background-color: #071952;
+    transform: rotate(90deg);
+  }
+  #plusMinus2{
+    border-radius: 20px;
+    position: absolute;
+    height: 12px;
+    width: 2px;
+    right: 0;
+  }
+
+
   
   #menuToggle span{
     width: 27.5px;

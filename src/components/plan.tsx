@@ -41,7 +41,7 @@ const Plan = () => {
                     <h1 className="text-6xl font-[600] w-max">Plan & <span className="text-[#E6B345]">Pricing</span></h1>
                     <p className="font-nunito font-[400] w-3/4">Choose only what you need with our flexible packages. Pay for what you use, and easily scale up as your needs grow. We are here to grow with you.</p>
                 </div>
-                <div className="rounded-[26px] w-10/12 backdrop-filter backdrop-blur-lg px-8 flex flex-wrap justify-center font-poppins gap-6">
+                <div className="rounded-[26px] w-10/12 max-md:w-full backdrop-filter backdrop-blur-lg px-8 flex flex-wrap justify-center font-poppins gap-6">
                     {PlanDetail.map(plan => (
                         <TypePlan
                             key={plan.id}

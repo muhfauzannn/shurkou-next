@@ -1,5 +1,4 @@
 
-import Image from 'next/image';
 import HeroImage from '@/components/atomic/heroImage';
 import Button from '@/components/atomic/button'
 const Hero = () => {
@@ -24,6 +23,7 @@ const Hero = () => {
                             redirectTo="/signup"
                             isPrimary={false}
                         />
+                        
                     </div>
                 </div>
 

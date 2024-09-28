@@ -4,7 +4,7 @@ import Image from 'next/image';
 const HeroImage = () => {
     return(
         <div className='relative -z-10 max-md:scale-[.8]'>
-            <Image src="./icon/nologo.svg" alt='logo' width={400} height={500} className='relative'></Image>
+            <Image src="./icon/nologo.svg" alt='logo' width={600} height={0} className='relative'></Image>
             
             <div className='absolute top-[35%] left-[5%] custMove'>
                 <Image src="/assets/Netflix-new-icon.png" alt='logo' width={35} height={30} className='rounded-md rotate-[-45deg]'/>
