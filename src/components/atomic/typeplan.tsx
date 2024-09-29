@@ -13,7 +13,7 @@ interface PlanProps {
 
 const TypePlan = ({ id, link, price, priceDate, title, description, features, popular }: PlanProps) => {
     return (
-        <div className={`h-[475px] ${popular ? 'bg-tertiary' : 'bg-[rgba(255,255,255,0.5)]'} py-[40px] px-[30px] flex flex-col w-[303px] rounded-[26px] text-white justify-between relative transition-all hover:-translate-y-2`}>
+        <div className={`h-[475px] ${popular ? 'bg-gradient-to-r from-[#f02a2a] to-[#3059ee]' : 'bg-[rgba(255,255,255,0.5)]'} py-[40px] px-[30px] flex flex-col w-[303px] rounded-[26px] text-white justify-between relative transition-all hover:-translate-y-2`}>
             
             {popular && (
                 <div className="absolute bg-primary py-[5px] px-[16px] rounded-[20px] top-2 right-2 opacity-80">

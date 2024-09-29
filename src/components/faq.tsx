@@ -30,9 +30,9 @@ const faqData: FaqItem[] = [
 ];
 
 const Faq = () => {
-  const [openFaqId, setOpenFaqId] = useState<number | null>(null); // Tentukan tipe state
+  // Inisialisasi state openFaqId dengan id pertanyaan pertama
+  const [openFaqId, setOpenFaqId] = useState<number | null>(faqData[0].id); 
 
-  // Tentukan tipe parameter id sebagai number
   const toggle = (id: number) => {
     setOpenFaqId(openFaqId === id ? null : id);
   };
@@ -49,7 +49,7 @@ const Faq = () => {
           <div key={faq.id} className="flex flex-col gap-2">
             <div
               className="flex justify-between items-center relative cursor-pointer"
-              onClick={() => toggle(faq.id)} // Panggil toggle dengan id FAQ
+              onClick={() => toggle(faq.id)}
             >
               <p className={`text-[22px] duration-100 max-md:w-[88%] ${openFaqId === faq.id ? "text-[#E6B345]" : "text-[#071952]"}`}>{faq.question}</p>
               <div id="plusMinus"></div>
@@ -61,10 +61,9 @@ const Faq = () => {
               ></div>
             </div>
 
-            {/* Container untuk answer dengan animasi */}
             <div
               className={`overflow-hidden transition-[max-height] duration-500 ease-in-out ${
-                openFaqId === faq.id ? "max-h-[200px]" : "max-h-0"
+                openFaqId === faq.id ? "max-h-[1000px]" : "max-h-0"
               }`}
             >
               <p className="font-[400] text-[18px] text-[#088395] w-[80%]">
