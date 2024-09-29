@@ -4,7 +4,7 @@ const Footer = ()=>{
     return(
         <>
         <div className="w-full flex flex-col items-center bg-secondary mt-20">
-            <div className="w-11/12 flex justify-evenly text-[#071952] py-10 max-md:flex-col max-md:gap-5">
+            <div className="w-11/12 flex justify-between text-[#071952] py-10 max-md:flex-col max-md:gap-5">
                 <div>
                     <div className='flex items-center'>
                         <Image src="./icon/Logo (2).svg" alt='logo' width={40} height={40}/>
@@ -41,8 +41,10 @@ const Footer = ()=>{
             </div>
         </div>
 
-        <div className='flex justify-center w-screen bg-secondary border-t-[1px] border-[#3059EE]'>
-            <p className='text-[#071952] py-2 font-poppins font-[600] text-sm'>Copyright © 2021-2024 SHURKOU. All rights reserved.</p>
+        <div className='flex justify-center w-screen bg-secondary border-[#3059EE]'>
+            <div className='w-11/12'>
+            <p className='text-[#071952] py-2 font-poppins font-[600] text-sm'>Copyright © 2024 by SHURKOU. All rights reserved.</p>
+            </div>
         </div>
         
         </>
