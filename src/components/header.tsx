@@ -1,6 +1,7 @@
 'use client';
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
+import Link from 'next/link'; // Import Link dari Next.js
 import Button from './atomic/button';
 import Hamburger from './atomic/hamburger';
 import BurgerAction from './atomic/burgerAction';
@@ -34,10 +35,10 @@ const Header = () => {
         </div>
 
         <div className='font-nunito flex gap-8 max-md:hidden'>
-          <a href='/' className='customLine'>Home</a>
-          <a href='#pricing' className='customLine'>Pricing</a>
-          <a href='#features' className='customLine'>Features</a>
-          <a href='https://google.com' className='customLine'>Join Discord</a>
+          <Link href='/' className='customLine'>Home</Link>
+          <Link href='#pricing' className='customLine'>Pricing</Link>
+          <Link href='#features' className='customLine'>Features</Link>
+          <Link href='https://google.com' className='customLine'>Join Discord</Link>
         </div>
 
         <div className='flex gap-6 font-nunito max-md:hidden'>
