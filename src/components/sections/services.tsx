@@ -1,4 +1,4 @@
-import AppServices from './atomic/appServices';
+import AppServices from '../atomic/appServices';
 
 const Services = () => {
     const dataApps = [

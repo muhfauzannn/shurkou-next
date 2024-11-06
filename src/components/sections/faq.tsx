@@ -51,7 +51,7 @@ const Faq = () => {
               className="flex justify-between items-center relative cursor-pointer"
               onClick={() => toggle(faq.id)}
             >
-              <p className={`text-[22px] duration-100 max-md:w-[88%] ${openFaqId === faq.id ? "text-[#E6B345]" : "text-[#071952]"}`}>{faq.question}</p>
+              <p className={`text-[22px] duration-500 max-md:w-[88%] ${openFaqId === faq.id ? "text-[#E6B345]" : "text-[#071952]"}`}>{faq.question}</p>
               <div id="plusMinus"></div>
               <div
                 id="plusMinus2"

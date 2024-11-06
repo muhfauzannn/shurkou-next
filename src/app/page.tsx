@@ -1,17 +1,17 @@
-import Header from '@/components/header'
-import Hero from '@/components/hero'
-import Features from '@/components/features'
-import Services from '@/components/services'
-import Plan from '@/components/plan'
-import Faq from '@/components/faq'
-import Cta from '@/components/cta'
-import Footer from '@/components/footer'
+import Header from '@/components/sections/header'
+import Hero from '@/components/sections/hero'
+import Features from '@/components/sections/features'
+import Services from '@/components/sections/services'
+import Plan from '@/components/sections/plan'
+import Faq from '@/components/sections/faq'
+import Cta from '@/components/sections/cta'
+import Footer from '@/components/sections/footer'
 
 export default function Home() {
   return (
     <>
     <Header />
-    <div className='flex flex-col gap-16'>
+    <div className='flex flex-col gap-16 mb-20'>
       <Hero />
       <Features />
       <Services />

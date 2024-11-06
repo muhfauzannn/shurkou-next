@@ -2,9 +2,9 @@
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link'; // Import Link dari Next.js
-import Button from './atomic/button';
-import Hamburger from './atomic/hamburger';
-import BurgerAction from './atomic/burgerAction';
+import Button from '../atomic/button';
+import Hamburger from '../atomic/hamburger';
+import BurgerAction from '../atomic/burgerAction';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);

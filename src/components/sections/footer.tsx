@@ -4,7 +4,7 @@ import Link from 'next/link'; // Import Link dari Next.js
 const Footer = () => {
   return (
     <>
-      <div className="w-full flex flex-col items-center bg-secondary mt-20">
+      <div className="w-full flex flex-col items-center bg-secondary">
         <div className="w-11/12 flex justify-between text-[#071952] py-10 max-md:flex-col max-md:gap-5">
           <div>
             <div className="flex items-center">

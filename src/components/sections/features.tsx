@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import FeaturesCard from './atomic/featuresCard';
+import FeaturesCard from '../atomic/featuresCard';
 
 const Features = () =>{
 

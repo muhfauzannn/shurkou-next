@@ -1,4 +1,4 @@
-import TypePlan from "./atomic/typeplan"
+import TypePlan from "../atomic/typeplan"
 
 const PlanDetail = [
     {

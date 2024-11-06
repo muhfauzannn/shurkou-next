@@ -28,9 +28,6 @@ const Input: FC<InputProps> = ({ label, type = 'text', id, placeholder, logo, ..
   const handleBlur = () => {
     setIsFocused(false);
   };
-
-
-
   if (type === 'password') {
       return(
         <div className='flex flex-col gap-[8px]'>
@@ -48,6 +45,7 @@ const Input: FC<InputProps> = ({ label, type = 'text', id, placeholder, logo, ..
                 onFocus={handleFocus}
                 onBlur={handleBlur}
                 required
+                {...props}
             />
             <Image src={`${isVisible ? './icon/eye-crossed.svg' : './icon/eye.svg'}`} 
             onClick={handleVisible}
